@@ -24,6 +24,9 @@
     
 }
 
+
+
+
 .lista_item-filter button{
     width: 100%;
     font-weight: bold;
@@ -31,9 +34,10 @@
     
 }
 
+
+
 .lista_item-filter button:hover{
     background: white;
-    
-   
+ 
 
 }
