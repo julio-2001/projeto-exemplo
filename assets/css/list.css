@@ -1,0 +1,39 @@
+.lista{
+    width: 100%;
+    border-spacing: 0;
+}
+
+.lista tr:nth-child(1){
+    vertical-align: top;
+    background: black;
+    color: white;
+    font-weight: bold;
+  }
+
+.lit tr td{
+    padding: 5px;
+}
+
+.lista td{
+    text-align: center;
+}
+.lista_item-filter td:hover{
+    border: 2px solid black;
+    filter: drop-shadow(2px 4px 1px rgb(220, 116, 220));
+    background: white;
+    
+}
+
+.lista_item-filter button{
+    width: 100%;
+    font-weight: bold;
+    color: black;
+    
+}
+
+.lista_item-filter button:hover{
+    background: white;
+    
+   
+
+}

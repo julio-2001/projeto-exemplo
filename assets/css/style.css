@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f8f6fa;
+}
+
+.cabecalho {
+    background: linear-gradient(45deg, rgb(149, 191, 255), #3349c6);
+    padding: 15px;
+    filter: drop-shadow(2px 4px 2px rgb(237, 121, 237));
+    
+}
+
+
+
+
+.menu{
+   display: flex;
+   justify-content: center;
+   margin-top: 15px;
+}
+
+.menu a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(8, 8, 250);
+    margin-right: 15px;
+    
+    border: 1px solid rgb(9, 63, 224);
+    padding: 3px;
+    animation:animated-girar 1s linear infinite  ;
+}
+
+@keyframes animated-girar
+{
+   
+    0%
+    {
+        transform: rotate(0deg);
+        filter: drop-shadow(2px 4px 2px rgb(40, 33, 117));
+    }
+
+    25%
+    {
+        transform: rotate(5deg);
+    }
+
+    50%
+    {
+        transform: rotate(0deg);
+    }
+
+    75%
+    {
+        transform: rotate(-5deg);
+    }
+
+
+    100%
+    {
+        transform: rotate(0deg);
+    }
+
+
+
+
+}
+
+
+
+
+.menu a:hover{
+   
+   color: black;
+   animation: animated-top;
+
+   
+   
+}
+
+#botao_enviar{
+    width: 95%;
+    transition: transform 190ms ease-out;
+    font-weight: bold;
+    color: black;
+}
+#botao_enviar:hover{
+    width: 90%;
+    transform: translate(0px, 0px) scale(1.1, 1.1);
+    filter: drop-shadow(2px 4px 1px  rgb(220, 116, 220));
+    font-weight: bold;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 2px;
+    cursor: pointer;
+}
+
